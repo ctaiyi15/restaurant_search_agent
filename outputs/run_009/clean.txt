@@ -1,0 +1,10 @@
+Input query:
+Compare Din Tai Fung in Seattle with another restaurant.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. generate_answer
+
+Output:
+What restaurants would you like to compare?

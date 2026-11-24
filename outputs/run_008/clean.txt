@@ -1,0 +1,27 @@
+Input query:
+Find the address, opening hours for today, and whether reservations are accepted at Din Tai Fung at University Village in Seattle. Include sources.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. replan
+13. execute_tools
+14. assess
+15. generate_answer
+
+Output:
+**Din Tai Fung — University Village**  
+- **Address:** 2621 NE 46th St, Seattle, WA 98105  
+- **Reservations:** Yes. The official location page has a **Reserve** button linking to Yelp reservations.  
+- **Today’s hours:** I can’t confirm them reliably from the available information. The results conflict about what date “today” refers to: one uses Tuesday, Nov. 24, 2026, while another discusses Thursday, Nov. 26, which it says is closed. The sources also disagree about regular Friday and Saturday hours.
+
+**Sources:** [Official Din Tai Fung location page](https://dtf.com/en-us/locations/seattle-university-village) · [Google Maps listing](https://maps.google.com/?cid=814160589347388683) · [University Village directory](https://uvillage.com/directory/din-tai-fung/)

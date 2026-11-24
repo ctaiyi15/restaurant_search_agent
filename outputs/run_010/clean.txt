@@ -1,0 +1,10 @@
+Input query:
+What is a llm?
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. generate_answer
+
+Output:
+Only restaurant query please.

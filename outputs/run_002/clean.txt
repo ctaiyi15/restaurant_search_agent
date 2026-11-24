@@ -1,0 +1,22 @@
+Input query:
+Find Chinese restaurants within 1 km of me. List three, ordered from nearest to farthest.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. replan
+13. execute_tools
+14. assess
+15. generate_answer
+
+Output:
+I couldn’t determine your location: “near me” didn’t resolve. So I can’t verify which Chinese restaurants are within 1 km or rank three by distance. The search found candidates in Seattle’s University District, including Xi’an Noodles, Mei Mei Cafe, and Red Pepper, but their distances from you are unknown.

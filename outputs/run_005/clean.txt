@@ -1,0 +1,18 @@
+Input query:
+Recommend Chinese restaurants within 100 meters of me, rated at least 4.9 with at least 10000 reviews. If no matches are found, say so clearly and do not relax the criteria.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. generate_answer
+
+Output:
+**No matching restaurants were found in the available results.** Every returned candidate fell short of both your minimum rating of **4.9** and **10,000 reviews**, so I haven’t relaxed your criteria.
+
+I couldn’t verify the **within 100 meters** requirement either: your current location could not be determined, and straight-line distances were unavailable. Thus, I can’t confirm whether any restaurant near your actual location qualifies.

@@ -1,0 +1,33 @@
+Input query:
+Recommend the two highest-rated restaurants near me.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. replan
+13. execute_tools
+14. assess
+15. replan
+16. execute_tools
+17. assess
+18. replan
+19. execute_tools
+20. assess
+21. replan
+22. execute_tools
+23. assess
+24. generate_answer
+
+Output:
+I can’t verify which restaurants are near you: “near me” couldn’t be geocoded, so the 3 km distance filter could not be completed, and the final rating sort returned no candidates.
+
+In the Seattle search results, the highest displayed rating is **4.7**, shared by **Due’ Cucina Italian Restaurant – Roosevelt**, **ROMA RISTORANTE**, and **The Shambles**. That’s a three-way tie, and none can be confirmed as near your location. The search’s Seattle area may not match where you are.

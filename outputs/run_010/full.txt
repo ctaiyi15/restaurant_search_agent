@@ -1,0 +1,11 @@
+Input query:
+What is a llm?
+
+===== parse_query =====
+{'parsed_query': ParsedQuery(intent='out_of_scope', location=None, restaurant_names=[], cuisine=None, dish=None, min_rating=None, min_review_count=None, price_levels=[], open_now=None, max_distance_km=None, features=[], sort_by='relevance', preferences=[])}
+
+===== check_constraints =====
+{'constraint_check': ConstraintCheck(status='invalid', issues=['Only restaurant query please.'], questions=[])}
+
+===== generate_answer =====
+{'final_answer': 'Only restaurant query please.'}

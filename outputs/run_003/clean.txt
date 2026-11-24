@@ -1,0 +1,24 @@
+Input query:
+Recommend nearby Chinese restaurants rated at least 4.3 with at least 500 reviews. List the top two by review count, highest first.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. generate_answer
+
+Output:
+The top two nearby Chinese restaurants meeting your rating and review-count criteria, ordered by review count:
+
+1. **Taste of Xi’an UW** — 4.6 stars, **2,208 reviews**; 4523 University Way NE (about **0.16 km** away in a straight line).
+2. **Red Pepper** — 4.4 stars, **811 reviews**; 4545 University Way NE (about **0.23 km** away in a straight line).
+
+Both exceed your minimum of 4.3 stars and 500 reviews.

@@ -1,0 +1,24 @@
+Input query:
+Compare the ratings, review counts, and price levels of Din Tai Fung at University Village and Master Bing in Seattle.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. generate_answer
+
+Output:
+| Restaurant | Rating | Review count | Price level |
+|---|---:|---:|---|
+| Din Tai Fung (University Village) | 4.6 | 4,141 | Moderate |
+| Master Bing (UW) | 4.6 | 418 | Inexpensive |
+
+Both have the same rating. Din Tai Fung has substantially more reviews; Master Bing is listed at a lower price level. Price levels are broad categories, not exact per-person costs.

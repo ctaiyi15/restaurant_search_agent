@@ -1,0 +1,12 @@
+Input query:
+Compare Din Tai Fung in Seattle with another restaurant.
+
+===== parse_query =====
+{'parsed_query': ParsedQuery(intent='comparison', location='Seattle', restaurant_names=['Din Tai Fung'], cuisine=None, dish=None, min_rating=None, min_review_count=None, price_levels=[], open_now=None, max_distance_km=None, features=[], sort_by='relevance', preferences=[])}
+
+===== check_constraints =====
+{'constraint_check': ConstraintCheck(status='needs_clarification', issues=['A named restaurant comparison requires at least two restaurants.'], questions=['What restaurants would you like to compare?']),
+ 'parsed_query': ParsedQuery(intent='comparison', location='Seattle', restaurant_names=['Din Tai Fung'], cuisine=None, dish=None, min_rating=None, min_review_count=None, price_levels=[], open_now=None, max_distance_km=None, features=[], sort_by='relevance', preferences=[])}
+
+===== generate_answer =====
+{'final_answer': 'What restaurants would you like to compare?'}

@@ -1,0 +1,9 @@
+.env
+.vscode/
+__pycache__/
+.venv/
+
+/run_queries.ps1
+/run_queries.sh
+
+*.py[cod]

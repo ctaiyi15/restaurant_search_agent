@@ -1,0 +1,28 @@
+Input query:
+Which restaurants within 3 km of me serve xiaolongbao (soup dumplings)? Recommend two and provide sources confirming that xiaolongbao is on their menus.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. replan
+13. execute_tools
+14. assess
+15. generate_answer
+
+Output:
+Two good options within 3 km of 4333 Brooklyn Ave NE (distances are straight-line):
+
+1. **Din Tai Fung** — 2621 NE 46th St, about **1.12 km** away. Its [official location page](https://dtf.com/en-us/locations/seattle-university-village) features Kurobuta Pork Xiao Long Bao; the [official menu](https://dtf.com/en-us/menu) also lists other xiao long bao varieties.
+
+2. **Dough Zone Dumpling House – University District** — 4701 24th Ave NE, about **0.99 km** away. Its [online ordering menu](https://order.toasttab.com/online/dough-zone-u-district/item-sweet-sour-cucumber-_61026bd6-046f-47af-b787-79596d139711) lists pork, pork-and-crab, and chicken xiao long bao. That listing is through an ordering platform, so current availability may vary.
+
+These are recommendations, not a complete inventory of every nearby restaurant serving soup dumplings.

@@ -1,0 +1,25 @@
+Input query:
+Recommend up to three nearby restaurants that are open now, serve vegetarian food, and have an inexpensive or moderate price level. Sort by price level from lowest to highest.
+
+Nodes:
+1. parse_query
+2. check_constraints
+3. plan_tools
+4. execute_tools
+5. assess
+6. replan
+7. execute_tools
+8. assess
+9. replan
+10. execute_tools
+11. assess
+12. generate_answer
+
+Output:
+All three are listed as **open now**, **inexpensive**, and serving vegetarian food. They’re tied at the lowest price level, so I’ve ordered them by distance from your address (straight-line):
+
+1. [Samir’s Mediterranean Grill](https://maps.google.com/?cid=17687132457191077753) — 1316 NE 43rd St · about **0.12 km**
+2. [Korean Tofu House](https://maps.google.com/?cid=12517789751951196392) — 4142 Brooklyn Ave NE · about **0.28 km**
+3. [Little Thai Restaurant](https://maps.google.com/?cid=6668047741394816943) — 4142 Brooklyn Ave NE #105 · about **0.29 km**
+
+“Inexpensive” is a general price category, not an exact per-person cost. The available information confirms vegetarian offerings but doesn’t specify particular dishes.
